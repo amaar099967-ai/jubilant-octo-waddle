@@ -14,5 +14,8 @@ root.render(
   </React.StrictMode>
 );
 
+// تسجيل Service Worker
 serviceWorkerRegistration.register();
+
+// قياس أداء التطبيق
 reportWebVitals();
